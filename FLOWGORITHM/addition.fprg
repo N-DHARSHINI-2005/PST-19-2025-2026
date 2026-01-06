@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="addition"/>
+        <attribute name="authors" value="prasa"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-01-06 10:01:51 AM"/>
+        <attribute name="created" value="cHJhc2E7TEFQVE9QLTlIMFQ5NzlGOzIwMjYtMDEtMDY7MDk6NDQ6MzggQU07MjgxOA=="/>
+        <attribute name="edited" value="cHJhc2E7TEFQVE9QLTlIMFQ5NzlGOzIwMjYtMDEtMDY7MTA6MDE6NTEgQU07MTsyOTA2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="num1, num2" type="Integer" array="False" size=""/>
+            <assign variable="num1" expression="10"/>
+            <assign variable="num2" expression="20"/>
+            <output expression="num1+num2" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
