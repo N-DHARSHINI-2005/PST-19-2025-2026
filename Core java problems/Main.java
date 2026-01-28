@@ -1,15 +1,16 @@
 import java.util.Scanner;
-public class Main {
+
+public class Main{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int n = 1234;  
-        int sum = 0;    
+        System.out.print("Enter string: ");
+        String str = sc.nextLine();
 
-        while (n > 0) {
-            sum = sum + (n % 10);  
-            n = n / 10;            
-        }
+        int length = 0;
+        char[] arr = str.toCharArray(); 
+        for(char c : arr)
+            length++;
 
-        System.out.println("Sum of digits = " + sum);
+        System.out.println("Length of string: " + length);
     }
 }
